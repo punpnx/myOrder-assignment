@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --font-custom-sans: "Noto Sans", "Noto Sans Thai", ui-sans-serif, system-ui,
+    -apple-system, BlinkMacMacFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+
+@layer base {
+  body {
+    font-family: var(--font-custom-sans);
+  }
+}
+
+@layer components {
+  .key-cell {
+    @apply w-[72px] h-[72px] relative;
+  }
+  .keycap {
+    @apply absolute inset-[2px] bg-gradient-to-r from-gray-600 to-gray-500 rounded-md border-[10px] border-t-[7px] border-t-gray-600 border-l-gray-500 border-b-gray-700 border-r-gray-600 shadow-sm shadow-gray-900 text-gray-300 px-[5px] pt-[3px];
+  }
+  .small-text {
+    @apply text-xs font-light;
+  }
+  .normal-text {
+    @apply text-sm font-light;
+  }
+}

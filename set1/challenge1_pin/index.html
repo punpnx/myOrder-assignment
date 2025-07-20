@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./src/output.css" rel="stylesheet">
+    <title>PIN Code</title>
+</head>
+
+<body>
+    <div class="flex min-h-screen flex-col items-center justify-center gap-6">
+        <div class="text-lg">กรุณาใส่รหัสผ่าน</div>
+        <div class="flex gap-3">
+            <div class="password-filled"></div>
+            <div class="password-filled"></div>
+            <div class="password"></div>
+            <div class="password"></div>
+            <div class="password"></div>
+            <div class="password"></div>
+        </div>
+
+        <div class="flex flex-col gap-4">
+            <div class="flex gap-6 text-3xl">
+                <div class="number">1</div>
+                <div class="number">2</div>
+                <div class="number">3</div>
+            </div>
+            <div class="flex gap-6 text-3xl">
+                <div class="number">4</div>
+                <div class="number">5</div>
+                <div class="number">6</div>
+            </div>
+            <div class="flex gap-6 text-3xl">
+                <div class="number">7</div>
+                <div class="number">8</div>
+                <div class="number">9</div>
+            </div>
+            <div class="flex gap-6 text-3xl">
+                <div class="number-empty"></div>
+                <div class="number">0</div>
+                <div class="number-empty">
+                    <img src="https://i.showdown.space/e01/delete-icon.svg" alt="Delete">
+                </div>
+            </div>
+        </div>
+
+        <div class="text-teal-500 underline">ลืมรหัสผ่าน</div>
+        <div class="absolute top-6 right-6">
+            <div class="relative w-6 h-6">
+                <div class="absolute h-px bg-black w-full top-1/2 rotate-45"></div>
+                <div class="absolute h-px bg-black w-full top-1/2 -rotate-45"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
