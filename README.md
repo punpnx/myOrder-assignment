@@ -36,4 +36,4 @@ Extra tasks I attempted in addition to the selected ones are stored in the **`ot
 ## Documentation Reference
 
 You can find the Tailwind CSS setup guide here:  
-👉 [https://tailwindcss.com/docs/installation/using-vite](https://tailwindcss.com/docs/installation/using-vite)# myOrder-assignment
+👉 [https://tailwindcss.com/docs/installation/using-vite](https://tailwindcss.com/docs/installation/using-vite)
